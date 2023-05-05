@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECED82B12A05AA3500877B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82B02A05AA3500877B2F /* AppDelegate.swift */; };
+		ECED82B32A05AA3500877B2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82B22A05AA3500877B2F /* SceneDelegate.swift */; };
+		ECED82B52A05AA3500877B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82B42A05AA3500877B2F /* ViewController.swift */; };
+		ECED82B82A05AA3500877B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECED82B62A05AA3500877B2F /* Main.storyboard */; };
+		ECED82BA2A05AA3600877B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECED82B92A05AA3600877B2F /* Assets.xcassets */; };
+		ECED82BD2A05AA3600877B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECED82BB2A05AA3600877B2F /* LaunchScreen.storyboard */; };
+		ECED82C82A05AA3600877B2F /* ByteCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82C72A05AA3600877B2F /* ByteCoinTests.swift */; };
+		ECED82D22A05AA3600877B2F /* ByteCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82D12A05AA3600877B2F /* ByteCoinUITests.swift */; };
+		ECED82D42A05AA3600877B2F /* ByteCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82D32A05AA3600877B2F /* ByteCoinUITestsLaunchTests.swift */; };
+		ECED82E42A05AADC00877B2F /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82E32A05AADC00877B2F /* CoinData.swift */; };
+		ECED82E62A05AAE500877B2F /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED82E52A05AAE500877B2F /* CoinManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECED82C42A05AA3600877B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECED82A52A05AA3500877B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECED82AC2A05AA3500877B2F;
+			remoteInfo = ByteCoin;
+		};
+		ECED82CE2A05AA3600877B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECED82A52A05AA3500877B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECED82AC2A05AA3500877B2F;
+			remoteInfo = ByteCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECED82AD2A05AA3500877B2F /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECED82B02A05AA3500877B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECED82B22A05AA3500877B2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECED82B42A05AA3500877B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECED82B72A05AA3500877B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECED82B92A05AA3600877B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECED82BC2A05AA3600877B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECED82BE2A05AA3600877B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECED82C32A05AA3600877B2F /* ByteCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByteCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECED82C72A05AA3600877B2F /* ByteCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteCoinTests.swift; sourceTree = "<group>"; };
+		ECED82CD2A05AA3600877B2F /* ByteCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByteCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECED82D12A05AA3600877B2F /* ByteCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteCoinUITests.swift; sourceTree = "<group>"; };
+		ECED82D32A05AA3600877B2F /* ByteCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECED82E32A05AADC00877B2F /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		ECED82E52A05AAE500877B2F /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECED82AA2A05AA3500877B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED82C02A05AA3600877B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED82CA2A05AA3600877B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECED82A42A05AA3500877B2F = {
+			isa = PBXGroup;
+			children = (
+				ECED82AF2A05AA3500877B2F /* ByteCoin */,
+				ECED82C62A05AA3600877B2F /* ByteCoinTests */,
+				ECED82D02A05AA3600877B2F /* ByteCoinUITests */,
+				ECED82AE2A05AA3500877B2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECED82AE2A05AA3500877B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECED82AD2A05AA3500877B2F /* ByteCoin.app */,
+				ECED82C32A05AA3600877B2F /* ByteCoinTests.xctest */,
+				ECED82CD2A05AA3600877B2F /* ByteCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECED82AF2A05AA3500877B2F /* ByteCoin */ = {
+			isa = PBXGroup;
+			children = (
+				ECED82B02A05AA3500877B2F /* AppDelegate.swift */,
+				ECED82B22A05AA3500877B2F /* SceneDelegate.swift */,
+				ECED82E72A05AB1700877B2F /* Model */,
+				ECED82E02A05AA8400877B2F /* View */,
+				ECED82E22A05AAA300877B2F /* Controller */,
+				ECED82B92A05AA3600877B2F /* Assets.xcassets */,
+				ECED82BB2A05AA3600877B2F /* LaunchScreen.storyboard */,
+				ECED82BE2A05AA3600877B2F /* Info.plist */,
+			);
+			path = ByteCoin;
+			sourceTree = "<group>";
+		};
+		ECED82C62A05AA3600877B2F /* ByteCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECED82C72A05AA3600877B2F /* ByteCoinTests.swift */,
+			);
+			path = ByteCoinTests;
+			sourceTree = "<group>";
+		};
+		ECED82D02A05AA3600877B2F /* ByteCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECED82D12A05AA3600877B2F /* ByteCoinUITests.swift */,
+				ECED82D32A05AA3600877B2F /* ByteCoinUITestsLaunchTests.swift */,
+			);
+			path = ByteCoinUITests;
+			sourceTree = "<group>";
+		};
+		ECED82E02A05AA8400877B2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECED82B62A05AA3500877B2F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECED82E22A05AAA300877B2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECED82B42A05AA3500877B2F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECED82E72A05AB1700877B2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECED82E52A05AAE500877B2F /* CoinManager.swift */,
+				ECED82E32A05AADC00877B2F /* CoinData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECED82AC2A05AA3500877B2F /* ByteCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECED82D72A05AA3600877B2F /* Build configuration list for PBXNativeTarget "ByteCoin" */;
+			buildPhases = (
+				ECED82A92A05AA3500877B2F /* Sources */,
+				ECED82AA2A05AA3500877B2F /* Frameworks */,
+				ECED82AB2A05AA3500877B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ByteCoin;
+			productName = ByteCoin;
+			productReference = ECED82AD2A05AA3500877B2F /* ByteCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECED82C22A05AA3600877B2F /* ByteCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECED82DA2A05AA3600877B2F /* Build configuration list for PBXNativeTarget "ByteCoinTests" */;
+			buildPhases = (
+				ECED82BF2A05AA3600877B2F /* Sources */,
+				ECED82C02A05AA3600877B2F /* Frameworks */,
+				ECED82C12A05AA3600877B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECED82C52A05AA3600877B2F /* PBXTargetDependency */,
+			);
+			name = ByteCoinTests;
+			productName = ByteCoinTests;
+			productReference = ECED82C32A05AA3600877B2F /* ByteCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECED82CC2A05AA3600877B2F /* ByteCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECED82DD2A05AA3600877B2F /* Build configuration list for PBXNativeTarget "ByteCoinUITests" */;
+			buildPhases = (
+				ECED82C92A05AA3600877B2F /* Sources */,
+				ECED82CA2A05AA3600877B2F /* Frameworks */,
+				ECED82CB2A05AA3600877B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECED82CF2A05AA3600877B2F /* PBXTargetDependency */,
+			);
+			name = ByteCoinUITests;
+			productName = ByteCoinUITests;
+			productReference = ECED82CD2A05AA3600877B2F /* ByteCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECED82A52A05AA3500877B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ECED82AC2A05AA3500877B2F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					ECED82C22A05AA3600877B2F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = ECED82AC2A05AA3500877B2F;
+					};
+					ECED82CC2A05AA3600877B2F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = ECED82AC2A05AA3500877B2F;
+					};
+				};
+			};
+			buildConfigurationList = ECED82A82A05AA3500877B2F /* Build configuration list for PBXProject "ByteCoin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECED82A42A05AA3500877B2F;
+			productRefGroup = ECED82AE2A05AA3500877B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECED82AC2A05AA3500877B2F /* ByteCoin */,
+				ECED82C22A05AA3600877B2F /* ByteCoinTests */,
+				ECED82CC2A05AA3600877B2F /* ByteCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECED82AB2A05AA3500877B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED82BD2A05AA3600877B2F /* LaunchScreen.storyboard in Resources */,
+				ECED82BA2A05AA3600877B2F /* Assets.xcassets in Resources */,
+				ECED82B82A05AA3500877B2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED82C12A05AA3600877B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED82CB2A05AA3600877B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECED82A92A05AA3500877B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED82E42A05AADC00877B2F /* CoinData.swift in Sources */,
+				ECED82B52A05AA3500877B2F /* ViewController.swift in Sources */,
+				ECED82B12A05AA3500877B2F /* AppDelegate.swift in Sources */,
+				ECED82B32A05AA3500877B2F /* SceneDelegate.swift in Sources */,
+				ECED82E62A05AAE500877B2F /* CoinManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED82BF2A05AA3600877B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED82C82A05AA3600877B2F /* ByteCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED82C92A05AA3600877B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECED82D42A05AA3600877B2F /* ByteCoinUITestsLaunchTests.swift in Sources */,
+				ECED82D22A05AA3600877B2F /* ByteCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECED82C52A05AA3600877B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECED82AC2A05AA3500877B2F /* ByteCoin */;
+			targetProxy = ECED82C42A05AA3600877B2F /* PBXContainerItemProxy */;
+		};
+		ECED82CF2A05AA3600877B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECED82AC2A05AA3500877B2F /* ByteCoin */;
+			targetProxy = ECED82CE2A05AA3600877B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECED82B62A05AA3500877B2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECED82B72A05AA3500877B2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECED82BB2A05AA3600877B2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECED82BC2A05AA3600877B2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECED82D52A05AA3600877B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECED82D62A05AA3600877B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECED82D82A05AA3600877B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 374DGY6WA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ByteCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kheladzedev.ByteCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECED82D92A05AA3600877B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 374DGY6WA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ByteCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kheladzedev.ByteCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECED82DB2A05AA3600877B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 374DGY6WA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kheladzedev.ByteCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ByteCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ByteCoin";
+			};
+			name = Debug;
+		};
+		ECED82DC2A05AA3600877B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 374DGY6WA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kheladzedev.ByteCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ByteCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ByteCoin";
+			};
+			name = Release;
+		};
+		ECED82DE2A05AA3600877B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 374DGY6WA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kheladzedev.ByteCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ByteCoin;
+			};
+			name = Debug;
+		};
+		ECED82DF2A05AA3600877B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 374DGY6WA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kheladzedev.ByteCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ByteCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECED82A82A05AA3500877B2F /* Build configuration list for PBXProject "ByteCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED82D52A05AA3600877B2F /* Debug */,
+				ECED82D62A05AA3600877B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECED82D72A05AA3600877B2F /* Build configuration list for PBXNativeTarget "ByteCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED82D82A05AA3600877B2F /* Debug */,
+				ECED82D92A05AA3600877B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECED82DA2A05AA3600877B2F /* Build configuration list for PBXNativeTarget "ByteCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED82DB2A05AA3600877B2F /* Debug */,
+				ECED82DC2A05AA3600877B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECED82DD2A05AA3600877B2F /* Build configuration list for PBXNativeTarget "ByteCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECED82DE2A05AA3600877B2F /* Debug */,
+				ECED82DF2A05AA3600877B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECED82A52A05AA3500877B2F /* Project object */;
+}
